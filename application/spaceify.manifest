@@ -1,0 +1,34 @@
+{
+  "provides_services": [
+    {
+      "service_name": "spaceify.org/services/example/spacelet1",
+      "service_type": "open"
+    }
+  ],
+  "name": "Example spacelet 1",
+  "unique_name": "example/spacelet1",
+  "version": "1.0.3",
+  "type": "spacelet",
+  "category": "educational",
+  "start_command": "node spacelet.js",
+  "shared": true,
+  "origins": [
+    "www.example.com"
+  ],
+  "inject_identifier": "<head>",
+  "inject_hostnames": [
+    "www.example.com"
+  ],
+  "inject_files": [
+    {
+      "file": "inject.js",
+      "type": "javascript"
+    }
+  ],
+  "short_description": "Displays current UTC date and time on URL www.example.com.",
+  "developer": {
+    "name": "Spaceify Oy",
+    "url": "http://spaceify.net",
+    "email": "admin@spaceify.net"
+  }
+}
